@@ -3,6 +3,7 @@ Bad Apple in compact PHP
 - scripts generate always a single frame of animation
 - frame is based on current time, so every 1/16s next frame will be served
 - to animate, continuous refreshing is needed, for now, works best in firefox
+- availaible here, but please don't kill my server: http://mirkl.es/ba/
 - there are two versions:
 
 ## simple.php
@@ -12,8 +13,8 @@ Bad Apple in compact PHP
 - run `php S- localhost:8080` in BadApplePhp directory and open `localhost:8080/simple.php`
 
 ## socket.php
-- stript creates single server by itself
-- video data are parsed once, so it has really low requirements
+- script creates single server by itself
+- video data is parsed once, so it has really low requirements
 - run `php socket.php` in BadApplePhp directory and open `localhost:8080/`
 
 video data is based on Abaduaber's version: https://youtu.be/IXOVUiyx1a8
