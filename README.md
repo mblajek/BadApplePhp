@@ -1,10 +1,11 @@
-# BadApplePhp
-Bad Apple in compact PHP
+# Bad Apple - PHP
+Bad Apple in compact PHP - https://youtu.be/dPgBT_cfSr
 - scripts generate always a single frame of animation
-- frame is based on current time, so every 1/16s next frame will be served
+- frame is based on current time, so every 1/15s next frame will be served
 - to animate, continuous refreshing is needed, for now, works best in firefox
-- availaible here, but please don't kill my server: http://mirkl.es/ba/
-- there are two versions:
+- available here, but please don't kill my server: http://mirkl.es/ba/
+
+there are two versions:
 
 ## simple.php
 - frame is sent as standard output and script ends
