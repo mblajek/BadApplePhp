@@ -2,7 +2,7 @@
 Bad Apple in compact PHP - https://youtu.be/dPgBT_cfSr
 - scripts generate always a single frame of animation
 - frame is based on current time, so every 1/15s next frame will be served
-- to animate, continuous refreshing is needed, for now, works best in firefox
+- to animate, continuous refreshing is needed, for now, works best in Firefox
 - available here, but please don't kill my server: http://mirkl.es/ba/
 
 there are two versions:
@@ -11,10 +11,10 @@ there are two versions:
 - frame is sent as standard output and script ends
 - parses video data in each request, works fine with php-fpm
 - can be used with webserver or in pure php
-- run `php S- localhost:8080` in BadApplePhp directory and open `localhost:8080/simple.php`
+- run `php -S localhost:8080` in BadApplePhp directory and open `localhost:8080/simple.php`
 
 ## socket.php
-- script creates single server by itself
+- script creates http server by itself
 - video data is parsed once, so it has really low requirements
 - run `php socket.php` in BadApplePhp directory and open `localhost:8080/`
 
